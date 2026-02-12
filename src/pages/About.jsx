@@ -30,9 +30,9 @@ export function About() {
           Questions, feedback, or collaboration ideas? Reach out.
         </p>
         <div className={styles.contactBlock}>
-          <span className={styles.contactName}>Dharshini Venkatesan</span>
-          <a href="mailto:dharshinipillai2005@gmail.com" className={styles.contactEmail}>
-            dharshinipillai2005@gmail.com
+          <span className={styles.contactName}>xyz abcd</span>
+          <a href="mailto:xyz@gmail.com" className={styles.contactEmail}>
+            xyz@gmail.com
           </a>
         </div>
         <Link to="/" className={styles.backLink}>← Back to Studio</Link>
