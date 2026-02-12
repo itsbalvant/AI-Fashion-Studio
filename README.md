@@ -1,6 +1,6 @@
 # ✨ AI Fashion Studio
 
-**Try fashion styles virtually with AI.** Upload a photo, pick a category and style, and get AI-generated looks in seconds—powered by Google Gemini.
+**Try fashion styles virtually with AI.** Upload a photo, pick a category and style, and get AI-generated looks in secondspowered by Google Gemini.
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -23,7 +23,7 @@
 
 ## 🎯 About
 
-**AI Fashion Studio** is a modern web app that lets you experiment with fashion using AI image generation. Choose who the look is for (Men, Women, or Kids), pick a category—**Outfits**, **Jewellery**, or **Footwear**—and generate styled images from your photo. No backend required for auth or gallery; everything runs in the browser with an optional Gemini API key for generation.
+**AI Fashion Studio** is a modern web app that lets you experiment with fashion using AI image generation. Choose who the look is for (Men, Women, or Kids), pick a category **Outfits**, **Jewellery**, or **Footwear**and generate styled images from your photo. No backend required for auth or gallery; everything runs in the browser with an optional Gemini API key for generation.
 
 Built as a portfolio project with a clean UI, glassmorphism auth screens, dark/light mode, and a responsive layout.
 
@@ -45,7 +45,7 @@ Built as a portfolio project with a clean UI, glassmorphism auth screens, dark/l
 ## 🛠 Tech Stack
 
 - **Frontend:** React 19, React Router 6, CSS Modules, Vite 7  
-- **AI:** Google Gemini 2.5 Flash (image generation) — [free tier](https://aistudio.google.com/apikey): 500 images/day, no watermark  
+- **AI:** Google Gemini 2.5 Flash (image generation)  [free tier](https://aistudio.google.com/apikey): 500 images/day, no watermark  
 - **Storage:** Browser `localStorage` for auth and gallery (no server)
 
 ---
@@ -83,7 +83,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 - Get a **free** API key: [Google AI Studio → Get API key](https://aistudio.google.com/apikey)  
-- **Use your own key** — sharing one key across machines causes quota and expiry errors.  
+- **Use your own key**  sharing one key across machines causes quota and expiry errors.  
 - Without this key, the app still runs; only the **Generate style** feature in the Studio will not work.
 
 **4. Start the development server**
