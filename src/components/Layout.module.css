@@ -1,0 +1,130 @@
+.wrapper {
+  min-height: 100vh;
+  background: var(--gradient-hero);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 1.15rem;
+  transition: transform 0.2s ease;
+}
+.logo:hover {
+  color: var(--text-primary);
+  transform: scale(1.02);
+}
+
+.logoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  animation: float 4s ease-in-out infinite;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navLink {
+  padding: 0.5rem 0.9rem;
+  border-radius: var(--radius);
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color var(--transition), background var(--transition);
+}
+.navLink:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.themeBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  transition: transform var(--transition), background var(--transition);
+}
+.themeBtn:hover {
+  transform: scale(1.05);
+  background: var(--accent-soft);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--border);
+}
+
+.userName {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.logoutBtn {
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--border);
+  transition: background var(--transition);
+}
+.logoutBtn:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.main {
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .nav {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .userName {
+    display: none;
+  }
+}
